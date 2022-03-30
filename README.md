@@ -177,7 +177,7 @@ Ubuntu / Vagrant / ClickHouse / GitHub / IntelliJ IDEA / Jira / Confluence / Seq
 
 ---
 
-### 飲食系モバイルアプリの新規開発
+### 飲食系モバイルアプリの新規開発 2020 年~
 
 #### 開発チーム
 
