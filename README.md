@@ -22,7 +22,7 @@ Firebase Authentication / Cloud Firestore / Firebase Analytics / Firebase Hostin
 
 ### AWS
 
-ECS / ECR / VPC / RDS / Route53 / ELB / SES / SMS / Cloud Watch / ACM / IAM / CodePipeline / CodeBuild / CodeDeploy / EC2 / S3 / CloudFront
+ECS / ECR / VPC / RDS / Route53 / ELB / SES / SMS / Cloud Watch / ACM / IAM / CodePipeline / CodeBuild / CodeDeploy / EC2 / S3 / CloudFront / SNS
 
 ### その他ツール等
 
@@ -91,6 +91,7 @@ Ubuntu / Protocol Buffers / ClickHouse / Redash / GitHub / IntelliJ IDEA / Vagra
 - Linter・Formatter の導入
 - Docker を用いた環境構築
 - AWS を用いたインフラ構築作業
+- ECS タスクスケジューリングを使用したバッチ処理の実装
 - AWS CodePipeline を用いた CI/CD
 
 #### 工夫したこと
@@ -107,7 +108,7 @@ Ubuntu / Protocol Buffers / ClickHouse / Redash / GitHub / IntelliJ IDEA / Vagra
 
 【モバイル】
 
-Flutter 2.2.2 / Dart 2.13.3
+Flutter 2.10.4 / Dart 2.16.2
 
 【フロントエンド】
 
@@ -119,7 +120,7 @@ PHP 8.1.0 / Laravel 8.74.0 / MySQL 8.0
 
 【AWS】
 
-ECS / ECR / VPC / RDS / Route53 / ELB / SES / SMS / Cloud Watch / ACM / IAM / CodePipeline / CodeBuild / CodeDeploy
+ECS / ECR / VPC / RDS / Route53 / ELB / SES / SMS / Cloud Watch / ACM / IAM / CodePipeline / CodeBuild / CodeDeploy / SNS
 
 【Firebase】
 
@@ -127,7 +128,7 @@ Firebase Authentication
 
 【その他ツール】
 
-Docker / Docker Compose / Bitbucket / PAY.JP / Visual Studio Code / Android Studio / Sequel Ace / Makefile / Chatwork
+Docker / Docker Compose / Bitbucket / PAY.JP
 
 ---
 
