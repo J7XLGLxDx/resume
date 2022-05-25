@@ -30,7 +30,7 @@ Docker / Docker Compose / Vagrant / ClickHouse / TestFlight / Codemagic / Redash
 
 ## 業務経歴
 
-### 電子書籍サービスの保守改修 2022 年〜
+### 電子書籍サービスの保守改修 2022 年〜(3 ヶ月)
 
 #### チーム構成
 
@@ -76,7 +76,7 @@ Ubuntu / Protocol Buffers / ClickHouse / Redash / GitHub / IntelliJ IDEA / Vagra
 
 ---
 
-### 飲食系モバイルアプリの開発 2021 年〜
+### 飲食系モバイルアプリの開発 2021 年〜(1 年)
 
 #### 開発チーム
 
@@ -132,7 +132,7 @@ Docker / Docker Compose / Bitbucket / PAY.JP
 
 ---
 
-### イラスト投稿系サービスの新規開発 2021 年〜
+### イラスト投稿系サービスの新規開発 2021 年〜 （8 ヶ月）
 
 #### 開発チーム
 
@@ -178,7 +178,7 @@ Ubuntu / Vagrant / ClickHouse / GitHub / IntelliJ IDEA / Jira / Confluence / Seq
 
 ---
 
-### 飲食系モバイルアプリの新規開発 2020 年~
+### 飲食系モバイルアプリの新規開発 2020 年~ (半年)
 
 #### 開発チーム
 
