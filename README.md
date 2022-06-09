@@ -6,7 +6,7 @@
 
 ### 言語
 
-Golang / PHP / Dart / JavaScript / TypeScript
+Go / PHP / Dart / JavaScript / TypeScript
 
 ### フレームワーク・ライブラリ
 
@@ -36,18 +36,21 @@ Docker / Docker Compose / Vagrant / ClickHouse / TestFlight / Codemagic / Redash
 
 #### 担当範囲（概要）
 
-- Go 言語を用いたバックエンド開発
+- Go を用いたバックエンド開発
 - Flutter を用いたモバイルアプリ開発
 
 #### 使用技術・ツール
 
 【バックエンド】
-Go1.17.10 / Gin 1.4.1
+
+Go 1.17.10 / Gin 1.4.1
 
 【モバイル】
+
 Flutter 3.0.1
 
 【その他ツール】
+
 Docker / Docker Compose
 
 ### 電子書籍サービスの保守改修 2022 年〜(3 ヶ月)
