@@ -6,11 +6,11 @@
 
 ### 言語
 
-PHP / Dart / JavaScript / TypeScript
+Golang / PHP / Dart / JavaScript / TypeScript
 
 ### フレームワーク・ライブラリ
 
-Laravel / Flutter / Vue.js / jQuery
+Gin / GORM / Laravel / Flutter / Vue.js / jQuery
 
 ### DB
 
@@ -22,13 +22,33 @@ Firebase Authentication / Cloud Firestore / Firebase Analytics / Firebase Hostin
 
 ### AWS
 
-ECS / ECR / VPC / RDS / Route53 / ELB / SES / SMS / Cloud Watch / ACM / IAM / CodePipeline / CodeBuild / CodeDeploy / EC2 / S3 / CloudFront / SNS
+ECS / ECR / VPC / RDS / Route53 / ELB / SES / SMS / Cloud Watch / ACM / IAM / CodePipeline / CodeBuild / CodeDeploy / EC2 / S3 / CloudFront / SNS / OpsWorks
 
 ### その他ツール等
 
 Docker / Docker Compose / Vagrant / ClickHouse / TestFlight / Codemagic / Redash / Ansible
 
 ## 業務経歴
+
+### ファッション系アプリの開発 2022 年~
+
+開発 4 人
+
+#### 担当範囲（概要）
+
+- Go 言語を用いたバックエンド開発
+- Flutter を用いたモバイルアプリ開発
+
+#### 使用技術・ツール
+
+【バックエンド】
+Go1.17.10 / Gin 1.4.1
+
+【モバイル】
+Flutter 3.0.1
+
+【その他ツール】
+Docker / Docker Compose
 
 ### 電子書籍サービスの保守改修 2022 年〜(3 ヶ月)
 
