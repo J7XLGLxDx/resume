@@ -32,6 +32,8 @@ Protocol Buffers / Docker / Docker Compose / Vagrant / ClickHouse / TestFlight /
 
 ### ファッション系アプリの開発 2022 年~
 
+#### 開発チーム
+
 開発 4 人
 
 #### 担当範囲（概要）
