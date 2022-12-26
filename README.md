@@ -1,16 +1,16 @@
-<!-- @format -->
-
 # 業務経歴書
 
 ## スキル
 
+※　実務で使用したもののみ記載
+
 ### 言語
 
-Go / PHP / Dart / JavaScript / TypeScript
+Go / PHP / Dart / JavaScript / TypeScript / Python
 
 ### フレームワーク・ライブラリ
 
-Gin / GORM / Laravel / Flutter / Vue.js / jQuery
+Gin / go-zero / Laravel / Flutter / React.js / Vue.js 
 
 ### DB
 
@@ -22,15 +22,51 @@ Firebase Authentication / Cloud Firestore / Firebase Analytics / Firebase Hostin
 
 ### AWS
 
-ECS / ECR / VPC / RDS / Route53 / ELB / SES / SMS / Cloud Watch / ACM / IAM / CodePipeline / CodeBuild / CodeDeploy / EC2 / S3 / CloudFront / SNS / OpsWorks
+ECS / Fargate / ECR / VPC / RDS / Route53 / ELB / SES / SMS / Cloud Watch / ACM / IAM / CodePipeline / CodeBuild / CodeDeploy / EC2 / S3 / CloudFront / SNS / OpsWorks / Batch / Transfer Family / Lambda / Secrets Manager / NAT Gateway
 
 ### その他ツール等
 
-Protocol Buffers / Docker / Docker Compose / Vagrant / ClickHouse / TestFlight / Codemagic / Redash / Ansible
+Protocol Buffers / Docker / Docker Compose / GitHub Actions / TestFlight / Codemagic / Redash / Squid / nginx / Ansible
 
 ## 業務経歴
 
-### ファッション系アプリの開発 2022 年~
+### 受託開発企業での開発業務(複数プロジェクト参加したものを一つにまとめてあります) 2022年 8月~
+#### 担当範囲（概要）
+
+- Go (go-zero) を用いたバックエンド開発
+- React.jsを用いたフロントエンド開発
+- MySQLのDB設計作業
+- issue作成作業
+
+#### 使用技術・ツール
+
+【バックエンド】
+
+Go 1.18 / go-zero / MySQL
+
+【フロントエンド】
+
+React.js v18 / TypeScript
+
+【Firebase】
+
+Firebase Authentication
+
+【その他ツール】
+
+Docker / Docker Compose / dbdiagram / Swagger
+
+#### 工夫したこと・発揮したバリュー
+
+- 土日含む週3での参画だったが、テーブル設計等の基盤作業にも携わり、プロジェクトに貢献することが出来た。
+- 平日の作業時に仕様やタスクの確認を行い、土日の作業ではタスク切れや待ちを起こさないように工夫した。結果、平日に参画したのと変わらないくらいのアウトプットを出すことが出来た。
+
+#### 学べたこと
+
+- React.jsは本案件で初めて使用したが、Vue.jsの3系に似ていると感じた。
+Reactの方が記法がシンプルなので、自分が技術の採用担当になったらフロントではReactを採用しようと思った。
+
+### ファッション系アプリの開発 2022 年 6月~ 
 
 #### 開発チーム
 
@@ -38,22 +74,51 @@ Protocol Buffers / Docker / Docker Compose / Vagrant / ClickHouse / TestFlight /
 
 #### 担当範囲（概要）
 
-- Go を用いたバックエンド開発
+- Go (Gin) を用いたバックエンド開発
 - Flutter を用いたモバイルアプリ開発
+- Vue.jsを用いたフロントエンド開発
+- GitHub Actions・CodePipelineを用いたCI/CDパイプラインの構築
+- AWS Batchを用いたバッチジョブ作成
+- ECS・NLB・squidを用いたフォワードプロキシサーバーの構築
+- S3・Transfer Familyを用いたSFEPサーバーの構築
+- CloudWatch Alarmの作成、およびアラームに従って動作するlambda関数の作成
+- RDSを用いたDBサーバーの構築作業
+- SNS連携作業
+- クローラー作成作業
 
 #### 使用技術・ツール
 
 【バックエンド】
 
-Go 1.17.10 / Gin 1.4.1
+Go 1.17.10 / Gin 1.4.1 / Python(lambda) / MySQL
+
+【フロントエンド】
+
+Vue.js (2.x) / TypeScript
 
 【モバイル】
 
-Flutter 3.0.1
+Flutter 3.3.5
+
+【AWS】
+
+ECS / Fargate / ECR / Batch /VPC / NLB / RDS / Transfer Family / Lambda / Cloud Watch / IAM / CodePipeline / CodeBuild / CodeDeploy / SNS / Secrets Manager / OpsWorks / NAT Gateway
 
 【その他ツール】
 
-Docker / Docker Compose
+Docker / Docker Compose / Squid / GitHub Actions / dbdiagram / Chef
+
+#### 工夫したこと・発揮したバリュー
+
+- Go言語はこの案件で初めて使用するプログラミング言語だったが、早期にキャッチアップすることが出来た。
+- 別案件でCI/CDパイプラインを構築した経験を活かし、CI/CDの移行作業を行った。GiHub Actionsは本案件で初使用だったが、こちらも早期にキャッチアップし、貢献。
+
+#### 学べたこと
+
+- Go言語を使用するメリットとして、シンプルな記法でコードが読みやすいことや静的型付け言語であり安全なこと、処理速度の速さ等があることが分かった。
+もしも自分がバックエンドの言語の採用決定に携わることになったら、真っ先に採用候補に挙げたいくらいには良い言語であると感じた。
+- 今まで新規開発でCI/CDの構築を行うことはあったが、既にリリースされているサービスで構築した経験は無かったので、学びになった。
+CI/CD構築にあたって、既存環境に影響を与えないように、現状のインフラ構成を把握する作業など、次回似たような作業をするときに活かせそうな気がする。
 
 ### 電子書籍サービスの保守改修 2022 年〜(3 ヶ月)
 
@@ -69,7 +134,6 @@ Docker / Docker Compose
 - Redash を用いたデータ統計作業
 - マスターデータ・ランキング用データのキャッシュ化
 - バッチ処理の実装
-- お問い合わせ対応
 
 #### 工夫したこと
 
