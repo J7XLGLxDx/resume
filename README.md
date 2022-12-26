@@ -28,6 +28,8 @@ ECS / Fargate / ECR / VPC / RDS / Route53 / ELB / SES / SMS / Cloud Watch / ACM 
 
 Protocol Buffers / Docker / Docker Compose / GitHub Actions / TestFlight / Codemagic / Redash / Squid / nginx / Ansible
 
+---
+
 ## 業務経歴
 
 ### 受託開発企業での開発業務(複数プロジェクト参加したものを一つにまとめてあります) 2022年 8月~
@@ -65,6 +67,8 @@ Docker / Docker Compose / dbdiagram / Swagger
 
 - React.jsは本案件で初めて使用したが、Vue.jsの3系に似ていると感じた。
 Reactの方が記法がシンプルなので、自分が技術の採用担当になったらフロントではReactを採用しようと思った。
+
+---
 
 ### ファッション系アプリの開発 2022 年 6月~ 
 
@@ -119,6 +123,8 @@ Docker / Docker Compose / Squid / GitHub Actions / dbdiagram / Chef
 もしも自分がバックエンドの言語の採用決定に携わることになったら、真っ先に採用候補に挙げたいくらいには良い言語であると感じた。
 - 今まで新規開発でCI/CDの構築を行うことはあったが、既にリリースされているサービスで構築した経験は無かったので、学びになった。
 CI/CD構築にあたって、既存環境に影響を与えないように、現状のインフラ構成を把握する作業など、次回似たような作業をするときに活かせそうな気がする。
+
+---
 
 ### 電子書籍サービスの保守改修 2022 年〜(3 ヶ月)
 
