@@ -84,7 +84,7 @@ Reactの方が記法がシンプルなので、自分が技術の採用担当に
 - GitHub Actions・CodePipelineを用いたCI/CDパイプラインの構築
 - AWS Batchを用いたバッチジョブ作成
 - ECS・NLB・squidを用いたフォワードプロキシサーバーの構築
-- S3・Transfer Familyを用いたSFEPサーバーの構築
+- S3・Transfer Familyを用いたSFTPサーバーの構築
 - CloudWatch Alarmの作成、およびアラームに従って動作するlambda関数の作成
 - RDSを用いたDBサーバーの構築作業
 - SNS連携作業
