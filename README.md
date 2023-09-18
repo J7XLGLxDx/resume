@@ -36,7 +36,7 @@ GraphQL / Protocol Buffers / Docker / Docker Compose / GitHub Actions / TestFlig
 
 ---
 
-### 受託案件の開発業務(複数プロジェクト参加したものを一つにまとめてあります) 2023年 ~ (8ヶ月)
+### 受託開発企業での開発業務(複数プロジェクト参加したものを一つにまとめてあります) 2023年 ~ (8ヶ月)
 
 - Go (echo) を用いたバックエンド開発
 - Next.js・Nuxt.jsを用いたフロントエンド開発
