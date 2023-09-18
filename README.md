@@ -10,7 +10,7 @@ Go / PHP / Dart / TypeScript / Python
 
 ### フレームワーク・ライブラリ
 
-Gin / echo / go-zero / ent / GORM / Laravel / Next.js / Nuxt.js / Flutter
+Gin / echo / go-zero / ent / GORM / Laravel / Lighthouse / Next.js / Nuxt.js / Flutter
 
 ### DB
 
