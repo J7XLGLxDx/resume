@@ -6,15 +6,15 @@
 
 ### 言語
 
-Go / PHP / Dart / TypeScript / Python
+Go / Node.js / TypeScript / PHP / Dart / Python
 
 ### フレームワーク・ライブラリ
 
-Gin / echo / go-zero / ent / GORM / Laravel / Lighthouse / Next.js / Nuxt.js / Flutter
+Gin / echo / go-zero / ent / GORM / Nest.js / Laravel / Lighthouse / Next.js / Nuxt.js / Flutter
 
 ### DB
 
-MySQL / CloudFirestore
+MySQL / PostgreSQL / CloudFirestore
 
 ### Firebase
 
@@ -22,7 +22,7 @@ Firebase Authentication / Cloud Firestore / Firebase Analytics / Firebase Hostin
 
 ### AWS
 
-ECS / Fargate / ECR / VPC / RDS / Route53 / ELB / SES / SMS / Cloud Watch / ACM / IAM / CodePipeline / CodeBuild / CodeDeploy / EC2 / S3 / CloudFront / SNS / OpsWorks / Batch / Transfer Family / Lambda / Secrets Manager / NAT Gateway
+ECS / Fargate / ECR / VPC / RDS / Route53 / ELB / SES / SMS / Cloud Watch / ACM / IAM / CodePipeline / CodeBuild / CodeDeploy / EC2 / S3 / CloudFront / SNS / OpsWorks / Batch / Transfer Family / Lambda / Secrets Manager / NAT Gateway / Cognito
 
 ### その他ツール等
 
@@ -34,10 +34,167 @@ GraphQL / Protocol Buffers / Docker / Docker Compose / GitHub Actions / TestFlig
 
 ※ 掛け持ちで仕事をしているので、期間に被りがある場合があります。
 
+
+### 施設入室管理システムやNFTアプリの開発など 2022年 ~ 2024年(2年)
+
+#### 使用技術
+
+【バックエンド】
+
+Go 1.18 / Node.js 21.0.0 / TypeScript / Nest.js / Prisma / Laravel / Lighthouse / go-zero
+
+【フロントエンド】
+
+Next.js / TypeScript / Tailwind CSS / aspida / SWR
+
+【AWS】
+
+Cognito
+
+【Firebase】
+
+Firebase Authentication
+
+【その他ツール】
+
+Docker / GitHub Actions / PostgreSQL / Alchemy / Vercel / OpenAPI / dbdiagram / Swagger / MySQL
+
+#### 主な担当業務
+- Go、Node.js、PHPを用いたバックエンド開発
+- Next.jsを用いたフロントエンド開発
+- DB設計作業
+- GraphQLのスキーマ定義
+- Linter・Formatter の導入
+- GitHub Actionsを用いたCIの構築
+- Dockerを用いたローカル用環境構築
+- マルチステージビルドを用いたDockerイメージの軽量化(本番・開発環境)
+- 3Dセキュア決済への移行作業
+- Cognitoを用いた認証機能の実装
+- テスト基盤の作成及びテストコード実装(バックエンド・フロント)
+
+#### 参加プロジェクト一覧
+以下より参加プロジェクトの詳細を確認できます。
+
+<details>
+<summary>NFTアプリの開発</summary>
+
+##### 担当範囲（概要）
+- Nest.jsを用いたバックエンド開発
+- Next.jsを用いたフロントエンド開発
+- ブロックチェーンとの連携
+- DB設計作業
+- バックエンドのアーキテクチャ設計
+- Linter・Formatter の導入
+- テスト基盤の作成及びテストコード実装(バックエンド・フロント)
+- Cognitoを用いた認証機能の実装
+- GitHub Actionsを用いたCI/CDの構築
+- Dockerを用いたローカル用環境構築
+- マルチステージビルドを用いたDockerイメージの軽量化(本番・開発環境)
+- コードレビュー
+
+##### 使用技術・ツール
+
+【バックエンド】
+Node.js 21.0.0 / TypeScript / Nest.js / Prisma / Jest
+
+【フロントエンド】
+
+Next.js / TypeScript / Tailwind CSS / aspida / SWR / Jest
+
+【AWS】
+
+Cognito
+
+【その他ツール】
+
+Docker / GitHub Actions / PostgreSQL / Alchemy / Vercel / OpenAPI
+
+#### 工夫したこと・発揮したバリュー
+
+- マルチステージビルドを用いることにより、Dockerイメージのサイズを軽量化を行った。
+- バックエンドの担当者が自分一人だったため、アーキテクチャ設計から実装まで一貫して担当し、プロジェクトの技術的な部分をリードすることが出来た。
+- GitHub Actionsを用いて、PR作成時に自動でテストや静的解析を行うようにしたことにようにした。これによって、コードの品質や安全性を自動的に保つ仕組みを構築した。
+- ブロックチェーン関連の機能の実装は初めての経験だったが、早期にキャッチアップすることが出来、バックエンドとの連携処理もスムーズに実装することが出来た。
+
+</details>
+
+<details>
+<summary>施設管理アプリの開発</summary>
+
+##### 担当範囲（概要）
+- Laravel (Lighthouse) を用いたバックエンド開発
+- Next.jsを用いたフロントエンド開発
+- DB設計作業
+- GraphQLのスキーマ定義
+- Linter・Formatter の導入
+- GitHub Actionsを用いたCIの構築
+- 3Dセキュア決済の実装
+- テストコード実装
+
+##### 使用技術・ツール
+
+【バックエンド】
+
+PHP 8.2 / Laravel 8.8 / Lighthouse
+
+【フロントエンド】
+
+Next.js / TypeScript
+
+【Firebase】
+
+Firebase Authentication
+
+【その他ツール】
+
+Docker / GitHub Actions / dbdiagram / GraphQL / MySQL
+
+#### 工夫したこと・発揮したバリュー
+
+- 既存プロジェクトに静的解析・フォーマッターなどが導入されていない状態だったので、早急に導入することにより、コードの統一性・保守性を高めた。
+  また、CIが導入されていなくマージ前に安全なコードであるかのチェックがされていなかったので、GitHub Actionsを用いて自動で静的解析・テストを実行するようにした。
+- テスト実行で並列テストを使うことにより、テスト実行時間を短縮出来るようにした。
+- 手続き型のコードをデザインパターンを用いてリファクタリングすることにより、コードの可読性を高めた。
+
+</details>
+
+<details>
+<summary>診断アプリの開発</summary>
+
+##### 担当範囲（概要）
+- Go (go-zero) を用いたバックエンド開発
+- Next.jsを用いたフロントエンド開発
+- DB設計作業
+- テストコード実装
+
+##### 使用技術・ツール
+
+【バックエンド】
+
+Go 1.18 / go-zero 
+
+【フロントエンド】
+
+Next.js / TypeScript
+
+【Firebase】
+
+Firebase Authentication
+
+【その他ツール】
+
+Docker / GitHub Actions / dbdiagram / Swagger / MySQL
+
+#### 工夫したこと・発揮したバリュー
+- 参画時は週3の稼働であったが、早期に仕様のキャッチアップを行い実装に入ることが出来た。結果として、プロジェクトの進捗に貢献することが出来た。
+
+</details>
+
 ---
 
 ### 受託開発企業での開発業務(複数プロジェクト参加したものを一つにまとめてあります) 2023年 ~ (8ヶ月)
 
+##### 担当範囲（概要）
 - Go (echo) を用いたバックエンド開発
 - Next.js・Nuxt.jsを用いたフロントエンド開発
 - DB設計作業
@@ -65,44 +222,6 @@ Docker / OpenAPI　/ GitHub Actions
 
 - entは初めての使用だったが、今までのORMを使用した経験を活かし、早期にキャッチアップすることが出来た。
 - テスト基盤の作成やDB設計など、プロジェクトのコア部分を担当したことにより、プロジェクトの技術的な部分をリードすることが出来た。
-
----
-
-### 施設入室管理システムの開発など(複数プロジェクト参加したものを一つにまとめてあります) 2022年 ~ (現在も継続中)
-#### 担当範囲（概要）
-
-- Go (go-zero) を用いたバックエンド開発
-- Laravel (Lighthouse) を用いたバックエンド開発
-- Next.jsを用いたフロントエンド開発
-- DB設計作業
-- GraphQLのスキーマ定義 
-- Linter・Formatter の導入
-- GitHub Actionsを用いたCIの構築
-
-#### 使用技術・ツール
-
-【バックエンド】
-
-Go 1.18 / go-zero / PHP 8.2 / Laravel 8.8 / Lighthouse
-
-【フロントエンド】
-
-Next.js / TypeScript
-
-【Firebase】
-
-Firebase Authentication
-
-【その他ツール】
-
-Docker / GitHub Actions / dbdiagram / Swagger / GraphQL
-
-#### 工夫したこと・発揮したバリュー
-
-- 既存プロジェクトに静的解析・フォーマッターなどが導入されていない状態だったので、早急に導入することにより、コードの統一性・保守性を高めた。 
-また、CIが導入されていなくマージ前に安全なコードであるかのチェックがされていなかったので、GitHub Actionsを用いて自動で静的解析・テストを実行するようにした。
-- テスト実行で並列テストを使うことにより、テスト実行時間を短縮出来るようにした。
-- 手続き型のコードをデザインパターンを用いてリファクタリングすることにより、コードの可読性を高めた。
 
 ---
 
