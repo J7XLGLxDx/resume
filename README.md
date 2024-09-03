@@ -32,7 +32,7 @@ GraphQL / Protocol Buffers / Docker / Docker Compose / GitHub Actions / TestFlig
 
 ## 業務経歴
 
-※ 掛け持ちで仕事をしているので、期間に被りがある場合があります。
+※ 掛け持ちで仕事をしている時期もあるので、期間に被りがある場合があります。
 
 
 ### 施設入室管理システムやNFTアプリの開発など 2022年 ~ 2024年(2年)
